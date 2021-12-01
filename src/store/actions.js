@@ -11,7 +11,7 @@ export default {
                 payload.count = 1;
                 // context.state.cartList.push(payload)
                 context.commit('addToCart', payload)
-                resolve('添加购物车成功!')
+                resolve('添加购物车成功!');
             }
         })
     }
