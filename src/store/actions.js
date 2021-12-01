@@ -6,6 +6,7 @@ export default {
             //2.判断oldProduct
             if (oldProduct) {
                 context.commit('addCounter', oldProduct)
+                console.log(111);
                 resolve('当前商品数量 +1');
             } else {
                 payload.count = 1;
